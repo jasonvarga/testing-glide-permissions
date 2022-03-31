@@ -3,6 +3,9 @@ title: Home
 id: home
 template: home
 blueprint: pages
+images:
+  - kayaks.jpg
+  - seagull.jpg
 ---
 ## Welcome to your new brand Statamic site!
 
