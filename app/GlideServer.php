@@ -14,6 +14,6 @@ class GlideServer extends StatamicServer
             ? Config::get('statamic.assets.image_manipulation.cache_path')
             : storage_path('statamic/glide');
 
-        return Storage::build($path, ['driver' => 'local'])->getDriver();
+        return Storage::build($path, ['driver' => 'local', 'visibility' => 'public'])->getDriver();
     }
 }
